@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DADOS</title>
+</head>
+<body>
+    <h1>EXERCÍCIO 4</h1>
+    <p>
+        Crie um formulário onde o usuário informa seu nome, seu e-mail, sua data de
+        nascimento e escolha numa lista suspensa a bandeira do seu cartão de crédito. Ao clicar
+        em em botão de submit, exiba todos os dados na tela e não exiba o formulário após o
+        preenchimento
+    </p>
+
+    <form action="dados.php" method="post">
+        <p>Digite seu nome: <input type="text" name="csnome" required></p>
+        <p>Digite seu e-mail: <input type="email" name="csemail" required></p>
+        <p>Digite sua data de nascimento: <input type="date" name="csdata" required></p>
+        <p>Escolha a bandeira de seu cartão: <input type="text" name="cscartao" id="" list="cscartao"></p>
+        <datalist id="cscartao">
+            <option value="VISA">
+            <option value="ELO">
+            <option value="MASTERCARD">  
+            <option value="HIPERCARD">    
+        </datalist>
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
