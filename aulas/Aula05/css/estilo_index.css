@@ -1,0 +1,33 @@
+body{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, #5fc9f3 0%, #9e46fc 100%);
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+button {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.color{
+    color: rgba(158,70,252,1);
+}
+
+.titulo{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgb(82, 50, 224) 0%, rgba(158,70,252,1) 100%);
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
